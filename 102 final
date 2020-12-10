@@ -1,0 +1,71 @@
+IN_STORE_LESSON_COST = FREE
+ZOOM_LESSON_COST = 15.00
+GUITAR_LESSON_COST = 29.99
+PIANO_LESSON_COST = 20.00
+FLUTE_LESSON_COST = 10.00
+
+def main():
+    In_Store_Lessons = getInStoreLessons()
+    Zoom_Lessons = getZoomLessons()
+    Guitar_Lessons = getGuitarLessons()
+    Piano_Lessons = getPianoLessons()
+    Flute_Lessons = getFluteLessons()
+    #outputs
+    #Display the In Store Lessons Cost
+    print('The In Store Lesson Cost is', getInStoreLessonsTotal(In_Store_Lessons))
+    #Display the Zoom Lessons Cost
+    print('The Zoom Lesson Cost is', getZoomLessonsCostTotal(Zoom_Lessons))
+    #Display the Guitar Lessons Cost
+    print('The Guitar Lesson Cost is', getGuitarLessonsCostTotal(Guitar_Lessons))
+    #Display the Piano Lessons Cost
+    print('The Piano Lesson Cost is', getPianoLessonsCostTotal(Piano_Lessons))
+    #Display the Flute Lessons Cost
+    print('The Flute lesson cost is', getFluteLessonsCosttotal(Flute_Lessons))
+    #Display the subtotal
+    print('The Subtotal is', getTotal(getInStoreLessonsTotal(In_Store_Lessons), getZoomLessonCostTotal(Zoom_Lessons), getGuitarLessonCostTotal(Guitar_Lessons), getPianoLessonCostTotal(Piano_Lessons), getFluteLessonCosttotal(Flute_Lessons))
+#input
+    def getInStoreLessons():
+              In_Store_Lessons = float(input('Enter the number of In Store Lessons purchased: '))
+              return
+            In_Store_Lessons
+        def getZoomLessons():
+              Zoom_Lesson = float(input('Enter the number of Zoom Lessons purchased: '))
+              return
+            Zoom_Lesson
+            def getGuitarLessons():
+                Guitar_Lesson = float(input('Enter the number of Guitar Lessons purchased: '))
+                return
+            Guitar_Lesson
+            def getPianoLessons():
+                Piano_Lesson = float(input('Enter the number of Piano Lessons purchased: '))
+                return
+            Piano_Lesson
+            def getFluteLessons():
+                Flute_Lesson = float(input('Enter the number of Flute Lesssons purchased: '))
+                return
+            Flute_Lesson
+
+            #Process the subtotal
+            def getInStoreLessonTotal(In_Store_Lesson):
+                return
+            In_Store_Lesson * IN_STORE_LESSON_COST
+            return
+            Zoom_lesson * ZOOM_LESSON_COST
+            return
+            Guitar_Lesson * GUITAR_LESSON_COST
+            return
+            Piano_Lesson * PIANO_LESSON_COST
+            return
+            Flute_Lesson * FLUTE_LESSON_COST
+            return
+
+        OUT_COST
+        def
+    getTotal(In_Store_Lesson,Zoom_Lesson,Guitar_Lesson,Piano_Lesson,Flute_Lesson):
+        return
+    In_Store_Lesson + Zoom_Lesson + Guitar_Lesson + Piano_Lesson + Flute_Lesson
+
+    if__name__=="__main__":
+    main()
+    
+    
